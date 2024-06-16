@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: quarkus-demo
+  annotations:
+    backstage.io/kubernetes-id: quarkus-demo
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: backstage-collection/quarkus-demo
+spec:
+  type: api
+  system: system:default/examples
+  lifecycle: production
+  owner: group:default/guests
